@@ -12,6 +12,18 @@ Back End - https://github.com/stevetoddy/Physio_App_API
 
 ---
 
+## Trello Board
+
+https://trello.com/b/kK33sqyD/physio-full-stack-app
+
+---
+## T3A2 - A README Documentation  
+
+https://github.com/OliWongDev/T3-A2
+
+---
+
+
 ## Libraries Used
 
 ### **Front End**
