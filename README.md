@@ -23,6 +23,157 @@ https://github.com/OliWongDev/T3-A2
 
 ---
 
+## Development Testing
+
+### **TEST 1 - Login**
+
+Scope of Testing:  
+-  Test the login feature of a web application  
+-  Test in Firefox browser  
+-  Test using valid and invalid login credentials  
+
+Test Plan:  
+-  Objectives: To verify that the login feature is working as expected  
+-  Resources: One tester, Firefox browser, test data  
+-  Test Cases: 2 (1 for successful login and 1 for unsuccessful login)  
+ 
+Test Case 1: Successful Login  
+
+Steps:  
+    1. Launch the web application in Firefox  
+    2. Enter a valid email and password  
+    3. Click on the login button  
+    4. 
+Expected Result:  
+-  User should be redirected to the home page  
+-  A message should display: "Welcome to Physio App"  
+
+Test Case 2: Unsuccessful Login  
+
+Steps:
+    1. Launch the web application in Firefox  
+    2. Enter an invalid email and password  
+    3. Click on the login button  
+
+Expected Result:  
+-  User should be redirected to the bad login page with and error message "Login Details are wrong!", and a link to return to the login page  
+-  User should not be redirected to the home page  
+
+Test Data:  
+
+First Test (Valid Credentials):  
+
+Email – s@email.com  
+Password – password1  
+Result – Success  
+
+Second Test (Inalid Credentials):  
+
+Email – wrong@email.com  
+Password – notpassword1  
+Result – Failure  
+
+Test Environment:  
+- Firefox browser version 109.0 (64-bit) Mozilla Firefox for Ubuntu  
+- Ubuntu 20.04.5 LTS Operating System  
+
+Test Execution:
+- Test Case 1: Successful
+- Test Case 2: Failure
+
+Results:
+- All test cases passed successfully
+- No defects found
+
+
+### **TEST 2 - Signup**
+
+Scope of Testing:  
+-  Test the login feature of a web application  
+-  Test in Firefox browser  
+-  Test using valid and invalid login credentials  
+
+Test Plan:  
+-  Objectives: To verify that the login feature is working as expected  
+-  Resources: One tester, Firefox browser, test data  
+-  Test Cases: 2 (1 for successful login and 1 for unsuccessful login)  
+ 
+Test Case 1: Successful Login  
+
+Steps:  
+    1. Launch the web application in Firefox  
+    2. Enter a valid email and password  
+    3. Click on the login button  
+    4. 
+Expected Result:  
+-  User should be redirected to the home page  
+-  A message should display: "Welcome to Physio App"  
+
+Test Case 2: Unsuccessful Login  
+
+Steps:
+    1. Launch the web application in Firefox  
+    2. Enter an invalid email and password  
+    3. Click on the login button  
+
+Expected Result:  
+-  User should be redirected to the bad login page with and error message "Login Details are wrong!", and a link to return to the login page  
+-  User should not be redirected to the home page  
+
+Test Data:  
+
+First Test (Valid Credentials):  
+
+Email – s@email.com  
+Password – password1  
+Result – Success  
+
+Second Test (Inalid Credentials):  
+
+Email – wrong@email.com  
+Password – notpassword1  
+Result – Failure  
+
+Test Environment:  
+- Firefox browser version 109.0 (64-bit) Mozilla Firefox for Ubuntu  
+- Ubuntu 20.04.5 LTS Operating System  
+
+Test Execution:
+- Test Case 1: Successful
+- Test Case 2: Failure
+
+Results:
+- All test cases passed successfully
+- No defects found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
 ## Libraries Used
 
