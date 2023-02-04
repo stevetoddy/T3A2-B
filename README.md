@@ -472,3 +472,45 @@ mongoose
 nodemon
 - Simple monitor script for use during development of a Node.js app.
 - Link: https://www.npmjs.com/package/nodemon
+
+
+
+## Source Control Methodology
+
+### Git Branches
+
+In order to ensure we were not working over the top of each other, our source control methodology included self-learning of the git branch workflow. We all utilized a git branch to work on our respective delegated features. We would ```git pull``` from the main remote source code to make sure our main branch was up-to-date locally, then use ```git branch branch-name``` to create a branch name before using ```git checkout branch-name``` to opt into that branch.
+
+It was inside the newly created branch that we were able to make our changes and commits on that local branch. Once we were finished with our commits and wanted to push to the remote repository we used ```git push origin branch-name```
+
+Finally, we would check into github.com to see that we could merge pull requests. If they were able to merge, they were merged into the source code becoming the new main we could pull from. If there were conflicts, we would need to either resolve these locally or using the Github merge editor (utilized when the conflicts were relatively small).
+
+In a proper environment, we understood and learned that it would likely be a senior developer approving the pull requests and/or offering feedback on the changes we'd made so that any errors were foreseen ahead of time.
+
+When the pull request was merged, we deleted our branches when a particular feature was done remotely and locally as it would be best practice if we working as real developers on multiple features simultaneously.
+
+Ultimately, this allowed us to work on the source code concurrently leading to greater efficiency.
+
+On the first part of the assignment, we made a git branching tutorial that we adhered to before getting the hang of it autonomously.
+
+### CI/CD (Continuous Integration, Continuous Deployment)
+
+The Physio Application is deployed on the Railway platform with both the back-end and front-end in separate containers. 
+
+As we deployed often after our backend and frontend were of standard, we were able to see the deployment errors that arose from our code that would work locally but could break when deployed. For example, we had to ensure that our fetch links upon deployment were not mixed (e.g a HTTP with a HTTPS) as this would cause errors rendering our components. This also helped us to see how long the rendering of different components would take and if there were code solutions for fixing these issues.
+
+## Task Delegation
+
+To begin the project, we established early what our strengths and weaknesses were so that we could better allocate roles for the project. It was our intention to be presently available for every part of the assignment as we are junior developers wanting to learn as much as possible, however under time constraints we learnt that this would not always be possible.
+
+Kane was responsible for the styling and design of the web application, Steve was very strong on the backend routing + frontend components and Oliver helped develop the functionality behind the primary features that the app serves to purpose. Given our strengths, we would often include each other in the latest developments of the code so that we could learn off of each other and this helped by us all being present on campus.
+
+We used the Trello Board to delegate tasks and update each other on the progress we had made, however our group calibration to each other was largely done in person and on campus where we could get feedback from our educator Iryna.
+
+## Agile Management Methodology
+
+To framework our collaboration, we aimed to stick to an Agile methodology as much as possible:
+- Reminding ourselves of the user stories to keep our application's purpose in scope while we were developing and making decisions as to what to include/omit.
+- We were flexible in adjusting to features that could not be added or were taking a long time to develop so that we could continue to meet the deadline.
+- We aimed to get continuous feedback from our educator on campus for suggestions on how our code could be optimised and working through bug fixes in a prompt manner.
+- There was a strong communication on campus between the team. We would mention what we were aiming to get done for that day, what we had done previously (and gave learnings where possible to other members), and any blockers we had taken from the previous day were able to worked through live.
